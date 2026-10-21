@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="hi-Latn" data-page="hing">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cyber Kavach — Online fraud se bachiye, sahi jagah report kijiye</title>
+<meta name="description" content="Online fraud, sextortion, fake calls aur account hack ke liye step-by-step guide aur official reporting links.">
+<meta name="theme-color" content="#f4efe6">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231f4d3a'/><path d='M16 6l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V9z' fill='%23f4efe6'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4efe6;--paper:#fbf8f2;--ink:#1c2420;--mute:#5d665f;--line:#d9d1c2;--green:#1f4d3a;--green2:#2d6a50;--red:#b3361f;--sand:#e9e1d0;--r:14px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:var(--bg);color:var(--ink);font:17px/1.65 Hind,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.15;letter-spacing:-.01em}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+section{padding:84px 0}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--green2);font-weight:600;margin-bottom:12px}
+h2{font-size:clamp(28px,4vw,42px);margin-bottom:14px;max-width:720px}
+.lead{color:var(--mute);max-width:640px;margin-bottom:38px}
+/* nav */
+header{position:sticky;top:0;z-index:20;background:rgba(244,239,230,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font-family:Fraunces,serif;font-weight:700;font-size:21px;text-decoration:none;display:flex;gap:9px;align-items:center}
+.logo i{width:24px;height:24px;background:var(--green);border-radius:6px;display:grid;place-items:center}
+.logo i:after{content:"";width:10px;height:12px;background:var(--bg);clip-path:polygon(50% 0,100% 20%,100% 55%,50% 100%,0 55%,0 20%)}
+.links{display:flex;gap:26px;font-size:15px;font-weight:500}
+.links a{text-decoration:none;color:var(--mute)}.links a:hover{color:var(--ink)}
+.sos{background:var(--red);color:#fff;text-decoration:none;font-weight:600;font-size:15px;padding:7px 16px;border-radius:99px}
+@media(max-width:820px){
+nav{flex-wrap:wrap;height:auto;padding:8px 0 2px}
+.links{order:3;width:100%;overflow-x:auto;white-space:nowrap;gap:20px;padding:8px 0 6px;scrollbar-width:none}
+.links::-webkit-scrollbar{display:none}
+html{scroll-padding-top:112px}
+section{padding:60px 0}
+.hero{padding:56px 0 44px}
+.panel>div{padding:24px 20px}
+}
+/* hero */
+.hero{padding:92px 0 70px}
+.hero .grid{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;align-items:center}
+h1{font-size:clamp(38px,6vw,68px);margin-bottom:22px}
+h1 em{font-style:italic;color:var(--green2)}
+.hero p{font-size:19px;color:var(--mute);max-width:520px;margin-bottom:30px}
+.btn{display:inline-block;padding:13px 24px;border-radius:10px;font-weight:600;text-decoration:none;font-size:16px;border:1.5px solid var(--green);transition:.2s}
+.btn.p{background:var(--green);color:var(--bg)}.btn.p:hover{background:var(--green2)}
+.btn.s{margin-left:10px}.btn.s:hover{background:var(--sand)}
+.num{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:8px 26px}
+.num div{display:flex;align-items:baseline;gap:18px;padding:18px 0;border-bottom:1px dashed var(--line)}
+.num div:last-child{border:0}
+.num b{font-family:Fraunces,serif;font-size:40px;color:var(--red);min-width:96px}
+.num span{color:var(--mute);font-size:15px;line-height:1.4}
+@media(max-width:860px){.hero .grid{grid-template-columns:1fr}.btn.s{margin:10px 0 0}}
+/* situations */
+.alt{background:var(--paper);border-block:1px solid var(--line)}
+.pick{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
+.pick button{font:inherit;font-size:15px;font-weight:500;padding:10px 18px;border-radius:99px;border:1.5px solid var(--line);background:var(--bg);cursor:pointer;transition:.15s}
+.pick button:hover{border-color:var(--green)}
+.pick button[aria-pressed=true]{background:var(--green);color:var(--bg);border-color:var(--green)}
+.panel{display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.panel>div{padding:32px}
+.panel>div:first-child{border-right:1px solid var(--line)}
+.panel h3{font-size:24px;margin-bottom:14px}
+.panel ol,.panel ul{padding-left:20px}.panel li{margin-bottom:10px}
+.warn{background:#f6e3dd;border-left:4px solid var(--red);padding:12px 16px;border-radius:6px;font-size:15.5px;margin-top:18px}
+.tag{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);font-weight:600;margin-bottom:8px}
+@media(max-width:780px){.panel{grid-template-columns:1fr}.panel>div:first-child{border:0;border-bottom:1px solid var(--line)}}
+/* scams */
+.scams{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:0;border-top:1px solid var(--ink)}
+.scam{padding:26px 26px 26px 0;border-bottom:1px solid var(--line)}
+.scam h3{font-size:21px;margin-bottom:6px}
+.scam small{display:block;color:var(--red);font-weight:600;font-size:13.5px;margin-bottom:8px}
+.scam p{color:var(--mute);font-size:15.5px}
+/* portals */
+.portals{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.portal{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:24px;text-decoration:none;transition:.2s;display:block}
+.portal:hover{transform:translateY(-3px);border-color:var(--green)}
+.portal b{font-family:Fraunces,serif;font-size:20px;display:block;margin-bottom:4px}
+.portal em{font-style:normal;color:var(--green2);font-weight:600;font-size:14px;display:block;margin-bottom:8px}
+.portal span{color:var(--mute);font-size:15px;display:block}
+/* habits */
+.habits{counter-reset:h;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:34px 44px}
+.habit{position:relative;padding-top:46px}
+.habit:before{counter-increment:h;content:"0" counter(h);position:absolute;top:0;font-family:Fraunces,serif;font-size:34px;color:var(--green2);opacity:.55}
+.habit h3{font-size:20px;margin-bottom:6px}.habit p{color:var(--mute);font-size:15.5px}
+/* quiz */
+.quiz{background:var(--green);color:var(--bg);border-radius:20px;padding:clamp(26px,5vw,56px)}
+.quiz .eyebrow{color:#a9d4bf}.quiz h2{color:var(--bg)}
+.q{max-width:720px}
+.q p.qt{font-family:Fraunces,serif;font-size:24px;margin:20px 0}
+.opt{display:block;width:100%;text-align:left;font:inherit;color:var(--bg);background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.25);padding:14px 18px;border-radius:10px;margin-bottom:10px;cursor:pointer;transition:.15s}
+.opt:hover:not(:disabled){background:rgba(255,255,255,.16)}
+.opt.ok{background:#e3f1e8;color:#14382a;border-color:#e3f1e8}
+.opt.no{background:#f6d9d1;color:#6b1f10;border-color:#f6d9d1}
+.why{margin:14px 0;color:#d6ebe0;font-size:15.5px;min-height:26px}
+.next{font:inherit;font-weight:600;background:var(--bg);color:var(--green);border:0;padding:11px 24px;border-radius:10px;cursor:pointer}
+.prog{font-size:14px;color:#a9d4bf}
+/* faq */
+details{border-bottom:1px solid var(--line);padding:18px 0;max-width:780px}
+summary{cursor:pointer;font-family:Fraunces,serif;font-size:20px;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--green2);font-size:26px;line-height:1}
+details[open] summary:after{content:"\2212"}
+details p{margin-top:10px;color:var(--mute)}
+/* footer */
+footer{background:var(--ink);color:#c9cfc8;padding:56px 0 30px;font-size:15px}
+footer .cols{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:36px;margin-bottom:40px}
+footer h4{color:#fff;font-family:Fraunces,serif;font-size:18px;margin-bottom:10px}
+footer a{display:block;text-decoration:none;color:#c9cfc8;margin-bottom:6px}footer a:hover{color:#fff}
+.legal{border-top:1px solid #3a443e;padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:14px}
+.legal b{color:#fff}
+@media(max-width:760px){footer .cols{grid-template-columns:1fr}}
+
+/* language switcher */
+.right{display:flex;align-items:center;gap:10px}
+#lang{font:inherit;font-size:14.5px;font-weight:500;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:99px;padding:6px 12px;cursor:pointer;max-width:140px}
+#lang:hover,#lang:focus{border-color:var(--green);outline:0}
+#google_translate_element{position:absolute;left:-9999px;top:0;height:0;overflow:hidden}
+.skiptranslate iframe,.goog-te-banner-frame,#goog-gt-tt,.goog-tooltip{display:none!important}
+body{top:0!important}
+.goog-text-highlight{background:none!important;box-shadow:none!important}
+@media(max-width:520px){.sos{padding:7px 11px;font-size:14px}#lang{max-width:104px;padding:6px 8px}.logo{font-size:18px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo notranslate" translate="no" href="#top"><i></i>Cyber Kavach</a>
+<div class="links"><a href="#madad">Madad</a><a href="#thagi">Common thagi</a><a href="#portal">Official portals</a><a href="#aadat">Surakshit aadatein</a><a href="#quiz">Quiz</a><a href="#faq">FAQ</a></div>
+<div class="right">
+<select id="lang" class="notranslate" translate="no" aria-label="Language">
+<option value="en">English</option>
+<option value="hing">Hinglish</option>
+<option value="hi">हिन्दी</option>
+<option value="mr">मराठी</option>
+<option value="gu">ગુજરાતી</option>
+</select>
+<a class="sos" href="tel:1930">Fraud? Call 1930</a>
+</div>
+</nav></div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap grid">
+<div>
+<div class="eyebrow">Digital suraksha guide</div>
+<h1>Online thagi hui? <em>Ghabraiye mat,</em> pehle ye kijiye.</h1>
+<p>Fraud, blackmail, fake calls ya hacked account. Seedhi bhasha mein bataya gaya hai ki kya karna hai, kitni jaldi karna hai aur report kahan karni hai.</p>
+<a class="btn p" href="#madad">Meri problem chuniye</a><a class="btn s" href="#portal">Official links</a>
+</div>
+<div class="num" aria-label="Important numbers">
+<div><b>1930</b><span>Online financial fraud helpline. Paisa katne ke turant baad call karein.</span></div>
+<div><b>112</b><span>Emergency, jab jaan ko khatra ho.</span></div>
+<div><b>1098</b><span>Childline, bacchon ki madad ke liye.</span></div>
+</div>
+</div></section>
+
+<section id="madad" class="alt"><div class="wrap">
+<div class="eyebrow">Step 1</div>
+<h2>Aapke saath kya hua?</h2>
+<p class="lead">Sabse milti-julti situation chuniye. Aapko turant karne wale kadam aur report karne ka tarika dikhega.</p>
+<div class="pick" id="pick" role="group" aria-label="Situation"></div>
+<div class="panel" aria-live="polite"><div id="do"></div><div id="dont"></div></div>
+</div></section>
+
+<section id="thagi"><div class="wrap">
+<div class="eyebrow">Step 2</div>
+<h2>Aaj kal ki sabse common thagiyan</h2>
+<p class="lead">Inke pattern pehchaan lenge to aadhi thagi wahin ruk jaati hai.</p>
+<div class="scams">
+<div class="scam"><small>Sabse zyada khatarnak</small><h3>"Digital arrest" call</h3><p>Koi khud ko CBI, police ya customs batakar video call par "arrest" ka darr dikhata hai. Koi bhi agency video call par arrest ya paise ki maang nahi karti. Call kaat dijiye.</p></div>
+<div class="scam"><small>Naukri / task fraud</small><h3>Ghar baithe kamayein</h3><p>Pehle chhota payment milta hai bharosa banane ke liye, phir bade "deposit" maange jaate hain. Paisa wapas nahi aata.</p></div>
+<div class="scam"><small>UPI</small><h3>Paisa lene ke liye PIN</h3><p>PIN sirf paisa bhejte waqt daalna hota hai. Agar koi kehta hai "paisa aane ke liye PIN daalo" ya QR scan karo, to wo thagi hai.</p></div>
+<div class="scam"><small>Phishing</small><h3>Fake KYC / bijli bill SMS</h3><p>"Aapka account band ho jayega" jaisa dabav banakar nakli link bhejte hain. Bank ya company ka official app seedha kholiye, link nahi.</p></div>
+<div class="scam"><small>Sextortion</small><h3>Video call par blackmail</h3><p>Call record karke private video bhejne ki dhamki aur paise ki maang. Paise dene se maang badhti hai. Block kijiye, evidence rakhiye, report kijiye.</p></div>
+<div class="scam"><small>Customer care</small><h3>Google par mila nakli number</h3><p>Search results mein nakli helpline aa sakti hai. Number hamesha company ki official website ya app se lijiye.</p></div>
+</div></div></section>
+
+<section id="portal" class="alt"><div class="wrap">
+<div class="eyebrow">Step 3</div>
+<h2>Report kahan karein</h2>
+<p class="lead">Sirf official sarkari ya recognised services. Ye website aapki taraf se koi complaint file nahi karti. Submit karne se pehle website ka address zaroor check karein.</p>
+<div class="portals">
+<a class="portal" href="https://cybercrime.gov.in/" target="_blank" rel="noopener"><b>National Cyber Crime Portal</b><em>cybercrime.gov.in</em><span>Har tarah ke cyber crime ki online complaint, anonymous report bhi.</span></a>
+<a class="portal" href="tel:1930"><b>Helpline 1930</b><em>Financial fraud</em><span>Paisa transfer hua ho to jitni jaldi call karenge, utni recovery ki umeed.</span></a>
+<a class="portal" href="https://sancharsaathi.gov.in/" target="_blank" rel="noopener"><b>Sanchar Saathi</b><em>sancharsaathi.gov.in</em><span>Sandigdh call/SMS (Chakshu), kho gaye phone aur aapke naam par SIM check karne ke liye.</span></a>
+<a class="portal" href="https://www.cert-in.org.in/" target="_blank" rel="noopener"><b>CERT-In</b><em>cert-in.org.in</em><span>Technical incidents, hacking aur vulnerabilities ki report.</span></a>
+<a class="portal" href="https://stopncii.org/" target="_blank" rel="noopener"><b>StopNCII</b><em>stopncii.org</em><span>Private photo/video online failne se rokne ke liye, image device se bahar nahi jaati.</span></a>
+<a class="portal" href="https://112.gov.in/" target="_blank" rel="noopener"><b>Emergency 112</b><em>112.gov.in</em><span>Turant khatre ya hinsa ki sthiti mein.</span></a>
+</div></div></section>
+
+<section id="aadat"><div class="wrap">
+<div class="eyebrow">Roz ki suraksha</div>
+<h2>Chhoti aadatein, bada bachaav</h2>
+<p class="lead" style="margin-bottom:46px">Koi technical knowledge nahi chahiye. Bas ye chhe cheezein.</p>
+<div class="habits">
+<div class="habit"><h3>OTP kisi ko nahi</h3><p>Bank, company ya sarkari karamchari, koi bhi OTP nahi maangta.</p></div>
+<div class="habit"><h3>Har account par alag password</h3><p>Password manager ya lamba passphrase use kijiye. Ek leak sab khol deta hai.</p></div>
+<div class="habit"><h3>2-step verification on</h3><p>Gmail, WhatsApp, Instagram aur bank par. Password pata chal bhi jaye to account bachta hai.</p></div>
+<div class="habit"><h3>Rukiye, phir socheyiye</h3><p>Jaldi karne ka dabav hi thagi ka asli hathiyar hai. 10 minute rukkar kisi apne se poochiye.</p></div>
+<div class="habit"><h3>Unknown APK install nahi</h3><p>WhatsApp par aayi .apk file ya "update" link phone ka control de sakti hai.</p></div>
+<div class="habit"><h3>Screenshot sambhaaliye</h3><p>Chat, number, UPI ID aur transaction ID. Report mein ye sabse kaam aate hain.</p></div>
+</div></div></section>
+
+<section id="quiz"><div class="wrap"><div class="quiz">
+<div class="eyebrow">Khud ko parkhiye</div>
+<h2>Kya aap thagi pehchaan sakte hain?</h2>
+<div class="q" id="q"></div>
+</div></div></section>
+
+<section id="faq" class="alt"><div class="wrap">
+<div class="eyebrow">Aksar poochhe jaane wale sawal</div>
+<h2>Kuch aur jaanna hai?</h2><div style="height:20px"></div>
+<details><summary>Paisa kat gaya, sabse pehle kya karu?</summary><p>Turant 1930 par call karein aur cybercrime.gov.in par complaint karein. Transaction ID, amount, time aur jis account mein paisa gaya uski detail taiyar rakhein. Apne bank ko bhi saath mein inform karein.</p></details>
+<details><summary>Kya ye website meri complaint file karti hai?</summary><p>Nahi. Ye sirf jaankari aur official links deti hai. Complaint hamesha official portal par hi karein, aur yahan koi private photo ya document upload na karein.</p></details>
+<details><summary>Blackmail karne wale ko kuch paise de du to?</summary><p>Nahi. Ek baar paisa dene par maang badhti jaati hai. Baat cheet band kijiye, account block karein, saboot rakhein aur report karein. Aap dosh nahi hain.</p></details>
+<details><summary>Kya report karne par police station jaana padega?</summary><p>Zyadatar cases mein online complaint pehla kadam hoti hai. Aage ki process aur agar kisi jagah jaana pade, wo complaint ke baad aapko bataya jata hai.</p></details>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<div class="cols">
+<div><h4 class="notranslate" translate="no">Cyber Kavach</h4><p>Online suraksha ke liye ek swatantra awareness project. Ye koi sarkari website nahi hai aur kisi sarkari sanstha se juda nahi hai. Numbers aur procedure badal sakte hain, isliye official site par confirm zaroor karein.</p></div>
+<div><h4>Jaldi jaayein</h4><a href="#madad">Meri problem</a><a href="#thagi">Common thagi</a><a href="#aadat">Surakshit aadatein</a><a href="#quiz">Quiz</a></div>
+<div><h4>Official</h4><a href="https://cybercrime.gov.in/" target="_blank" rel="noopener">cybercrime.gov.in</a><a href="https://sancharsaathi.gov.in/" target="_blank" rel="noopener">sancharsaathi.gov.in</a><a href="https://www.cert-in.org.in/" target="_blank" rel="noopener">cert-in.org.in</a></div>
+</div>
+<div class="legal"><span>&copy; <span id="yr">2026</span> Cyber Kavach. Sirf shaikshik jaankari ke liye.</span><span>Created by <b class="notranslate" translate="no">Atul Kumar</b></span></div>
+</div></footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+const S={
+"Paisa kat gaya":{do:["Turant <b>1930</b> par call karein.","Apne bank ya UPI app mein card/account block ya freeze karwayein.","cybercrime.gov.in par complaint darj karein.","Transaction ID, amount, time aur receiver ka account/UPI ID save karein."],dont:["Thagon ke baar-baar aaye calls ya links par dobara click na karein.","Kisi 'recovery agent' ko paise na dein, ye doosri thagi hoti hai.","Der na karein, pehle ghante sabse kaam ke hote hain."],w:"Complaint karne ke baad bhi apne bank se written acknowledgement lein."},
+"Blackmail / sextortion":{do:["Baat cheet band karein aur us account ko block aur report karein.","Chat, number, profile link aur screenshots surakshit rakhein.","cybercrime.gov.in par report karein, chahein to anonymous.","Private photo/video fail rahi ho to StopNCII ya platform ka report tool use karein."],dont:["Paise na dein aur aur koi photo/video na bhejein.","Khud ko dosh na dein, apradh karne wale ki galti hai.","Evidence delete na karein."],w:"Agar peedit nabalig hai to kisi bharose ke bade ko saath lein aur turant madad lein. Helpline 1098 bhi hai."},
+"Fake call / digital arrest":{do:["Call kaat dein. Koi agency video call par arrest nahi karti.","Number screenshot karein aur sancharsaathi.gov.in par Chakshu se report karein.","Ghar ke kisi vyakti ko batayein.","Paisa bhej diya ho to turant 1930."],dont:["Koi paisa ya 'verification deposit' na bhejein.","Screen share ya APK install na karein.","Call par bane rehkar 'jaanch mein sahyog' na karein."],w:"Asli sarkari notice offline aur likhit roop mein aate hain, call par dhamki se nahi."},
+"Account hack ho gaya":{do:["Us platform ka 'account recovery' use karke password badlein.","2-step verification on karein aur sab devices se logout karein.","Same password jahan bhi use kiya wahan badlein.","Apne contacts ko batayein ki unse paise maange jaayein to na dein."],dont:["Recovery ke liye kisi 'hacker' ya 'expert' ko paisa na dein.","Apna OTP kisi ke saath share na karein."],w:"Bank ya email hack hua ho to pehle usi ko secure karein, baaki baad mein."},
+"Phone / SIM kho gaya":{do:["Apne operator ko bata kar SIM block karwayein.","Sanchar Saathi par phone ko block aur track karne ki request karein.","UPI aur bank apps ka access band karwayein.","Police mein report (FIR/e-FIR) darj karayein."],dont:["Kisi 'phone dhoondhne wali service' ko paise na dein."],w:"Phone ka IMEI number box ya *#06# dial karke milta hai, isey kahin likh kar rakhein."}
+};
+const pick=document.getElementById('pick'),doE=document.getElementById('do'),dontE=document.getElementById('dont');
+function show(k){
+ [...pick.children].forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===k));
+ const s=S[k];
+ doE.innerHTML='<div class="tag">Abhi karein</div><h3>'+k+'</h3><ol>'+s.do.map(x=>'<li>'+x+'</li>').join('')+'</ol>';
+ dontE.innerHTML='<div class="tag">Ye na karein</div><ul>'+s.dont.map(x=>'<li>'+x+'</li>').join('')+'</ul><div class="warn">'+s.w+'</div>';
+}
+Object.keys(S).forEach(k=>{const b=document.createElement('button');b.textContent=k;b.dataset.k=k;b.onclick=()=>show(k);pick.appendChild(b)});
+show("Paisa kat gaya");
+
+const Q=[
+["Ek caller khud ko CBI officer bata kar video call par 'digital arrest' ki baat karta hai. Aap?",["Cooperate karke paise bhej dete hain","Call kaat dete hain aur report karte hain","Screen share kar dete hain"],1,"Koi agency video call par arrest nahi karti. Ye ek jaani-maani thagi hai."],
+["Ek 'customer care' wala kehta hai paisa wapas karne ke liye UPI PIN daalo.",["PIN sirf paisa bhejne ke liye hota hai, mana kar dein","PIN daal dete hain","Sirf aadha PIN batate hain"],0,"Paisa receive karne ke liye PIN kabhi nahi chahiye."],
+["WhatsApp par 'Aapka bijli bill pending hai, update karein.apk' aata hai.",["Install kar lete hain","Delete karke sender ko report karte hain","Dost ko forward karte hain"],1,"Unknown APK phone ka control aur SMS/OTP chura sakta hai."],
+["Koi aapki private photo leak karne ki dhamki deta hai.",["Thode paise de dete hain","Block, evidence save aur report","Chat delete kar dete hain"],1,"Paise dene se maang badhti hai. Evidence save karke cybercrime.gov.in par report karein."],
+["Google se bank ka customer care number mila. Sabse surakshit kya hai?",["Pehla result call karna","Bank ke official app ya website se number lena","Kisi ke status se number lena"],1,"Nakli numbers search results mein bhi aa jaate hain."]
+];
+let i=0,sc=0;const qe=document.getElementById('q');
+function ask(){
+ if(i>=Q.length){qe.innerHTML='<p class="prog">Poora hua</p><p class="qt" style="font-family:Fraunces,serif;font-size:28px;margin:14px 0">Aapka score: '+sc+' / '+Q.length+'</p><p class="why">'+(sc>=4?'Bahut badhiya, ye jaankari apne ghar walon ko bhi batayein.':'Koi baat nahi. Upar ke guides dobara padhiye aur phir koshish kijiye.')+'</p><button class="next" onclick="i=0;sc=0;ask()">Dobara khelein</button>';return}
+ const [t,o,a,w]=Q[i];
+ qe.innerHTML='<div class="prog">Sawal '+(i+1)+' / '+Q.length+'</div><p class="qt">'+t+'</p>'+o.map((x,j)=>'<button class="opt" data-j="'+j+'">'+x+'</button>').join('')+'<div class="why" id="why"></div>';
+ qe.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{
+  const j=+b.dataset.j;if(j===a)sc++;
+  qe.querySelectorAll('.opt').forEach((x,k)=>{x.disabled=true;if(k===a)x.classList.add('ok');else if(k===j)x.classList.add('no')});
+  document.getElementById('why').textContent=w;
+  const n=document.createElement('button');n.className='next';n.textContent=i<Q.length-1?'Agla sawal':'Result dekhein';n.onclick=()=>{i++;ask()};qe.appendChild(n);
+ });
+}
+ask();
+</script>
+
+<script>
+(function(){
+ var s=document.getElementById('lang');s.value='hing';
+ s.addEventListener('change',function(){
+  var v=s.value;if(v==='hing')return;
+  location.href='index.html#lang-'+v;
+ });
+})();
+</script>
+</body>
+</html>

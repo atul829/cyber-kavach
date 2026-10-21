@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" data-page="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cyber Kavach — Beat online fraud, report it to the right place</title>
+<meta name="description" content="Step-by-step help and official reporting links for online fraud, sextortion, fake calls and hacked accounts in India.">
+<meta name="theme-color" content="#f4efe6">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231f4d3a'/><path d='M16 6l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V9z' fill='%23f4efe6'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Hind:wght@400;500;600&family=Noto+Sans+Gujarati:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4efe6;--paper:#fbf8f2;--ink:#1c2420;--mute:#5d665f;--line:#d9d1c2;--green:#1f4d3a;--green2:#2d6a50;--red:#b3361f;--sand:#e9e1d0;--r:14px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:var(--bg);color:var(--ink);font:17px/1.65 Hind,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.15;letter-spacing:-.01em}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+section{padding:84px 0}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--green2);font-weight:600;margin-bottom:12px}
+h2{font-size:clamp(28px,4vw,42px);margin-bottom:14px;max-width:720px}
+.lead{color:var(--mute);max-width:640px;margin-bottom:38px}
+/* nav */
+header{position:sticky;top:0;z-index:20;background:rgba(244,239,230,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font-family:Fraunces,serif;font-weight:700;font-size:21px;text-decoration:none;display:flex;gap:9px;align-items:center}
+.logo i{width:24px;height:24px;background:var(--green);border-radius:6px;display:grid;place-items:center}
+.logo i:after{content:"";width:10px;height:12px;background:var(--bg);clip-path:polygon(50% 0,100% 20%,100% 55%,50% 100%,0 55%,0 20%)}
+.links{display:flex;gap:26px;font-size:15px;font-weight:500}
+.links a{text-decoration:none;color:var(--mute)}.links a:hover{color:var(--ink)}
+.sos{background:var(--red);color:#fff;text-decoration:none;font-weight:600;font-size:15px;padding:7px 16px;border-radius:99px}
+@media(max-width:820px){
+nav{flex-wrap:wrap;height:auto;padding:8px 0 2px}
+.links{order:3;width:100%;overflow-x:auto;white-space:nowrap;gap:20px;padding:8px 0 6px;scrollbar-width:none}
+.links::-webkit-scrollbar{display:none}
+html{scroll-padding-top:112px}
+section{padding:60px 0}
+.hero{padding:56px 0 44px}
+.panel>div{padding:24px 20px}
+}
+/* hero */
+.hero{padding:92px 0 70px}
+.hero .grid{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;align-items:center}
+h1{font-size:clamp(38px,6vw,68px);margin-bottom:22px}
+h1 em{font-style:italic;color:var(--green2)}
+.hero p{font-size:19px;color:var(--mute);max-width:520px;margin-bottom:30px}
+.btn{display:inline-block;padding:13px 24px;border-radius:10px;font-weight:600;text-decoration:none;font-size:16px;border:1.5px solid var(--green);transition:.2s}
+.btn.p{background:var(--green);color:var(--bg)}.btn.p:hover{background:var(--green2)}
+.btn.s{margin-left:10px}.btn.s:hover{background:var(--sand)}
+.num{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:8px 26px}
+.num div{display:flex;align-items:baseline;gap:18px;padding:18px 0;border-bottom:1px dashed var(--line)}
+.num div:last-child{border:0}
+.num b{font-family:Fraunces,serif;font-size:40px;color:var(--red);min-width:96px}
+.num span{color:var(--mute);font-size:15px;line-height:1.4}
+@media(max-width:860px){.hero .grid{grid-template-columns:1fr}.btn.s{margin:10px 0 0}}
+/* situations */
+.alt{background:var(--paper);border-block:1px solid var(--line)}
+.pick{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
+.pick button{font:inherit;font-size:15px;font-weight:500;padding:10px 18px;border-radius:99px;border:1.5px solid var(--line);background:var(--bg);cursor:pointer;transition:.15s}
+.pick button:hover{border-color:var(--green)}
+.pick button[aria-pressed=true]{background:var(--green);color:var(--bg);border-color:var(--green)}
+.panel{display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.panel>div{padding:32px}
+.panel>div:first-child{border-right:1px solid var(--line)}
+.panel h3{font-size:24px;margin-bottom:14px}
+.panel ol,.panel ul{padding-left:20px}.panel li{margin-bottom:10px}
+.warn{background:#f6e3dd;border-left:4px solid var(--red);padding:12px 16px;border-radius:6px;font-size:15.5px;margin-top:18px}
+.tag{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);font-weight:600;margin-bottom:8px}
+@media(max-width:780px){.panel{grid-template-columns:1fr}.panel>div:first-child{border:0;border-bottom:1px solid var(--line)}}
+/* scams */
+.scams{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:0;border-top:1px solid var(--ink)}
+.scam{padding:26px 26px 26px 0;border-bottom:1px solid var(--line)}
+.scam h3{font-size:21px;margin-bottom:6px}
+.scam small{display:block;color:var(--red);font-weight:600;font-size:13.5px;margin-bottom:8px}
+.scam p{color:var(--mute);font-size:15.5px}
+/* portals */
+.portals{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.portal{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:24px;text-decoration:none;transition:.2s;display:block}
+.portal:hover{transform:translateY(-3px);border-color:var(--green)}
+.portal b{font-family:Fraunces,serif;font-size:20px;display:block;margin-bottom:4px}
+.portal em{font-style:normal;color:var(--green2);font-weight:600;font-size:14px;display:block;margin-bottom:8px}
+.portal span{color:var(--mute);font-size:15px;display:block}
+/* habits */
+.habits{counter-reset:h;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:34px 44px}
+.habit{position:relative;padding-top:46px}
+.habit:before{counter-increment:h;content:"0" counter(h);position:absolute;top:0;font-family:Fraunces,serif;font-size:34px;color:var(--green2);opacity:.55}
+.habit h3{font-size:20px;margin-bottom:6px}.habit p{color:var(--mute);font-size:15.5px}
+/* quiz */
+.quiz{background:var(--green);color:var(--bg);border-radius:20px;padding:clamp(26px,5vw,56px)}
+.quiz .eyebrow{color:#a9d4bf}.quiz h2{color:var(--bg)}
+.q{max-width:720px}
+.q p.qt{font-family:Fraunces,serif;font-size:24px;margin:20px 0}
+.opt{display:block;width:100%;text-align:left;font:inherit;color:var(--bg);background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.25);padding:14px 18px;border-radius:10px;margin-bottom:10px;cursor:pointer;transition:.15s}
+.opt:hover:not(:disabled){background:rgba(255,255,255,.16)}
+.opt.ok{background:#e3f1e8;color:#14382a;border-color:#e3f1e8}
+.opt.no{background:#f6d9d1;color:#6b1f10;border-color:#f6d9d1}
+.why{margin:14px 0;color:#d6ebe0;font-size:15.5px;min-height:26px}
+.next{font:inherit;font-weight:600;background:var(--bg);color:var(--green);border:0;padding:11px 24px;border-radius:10px;cursor:pointer}
+.prog{font-size:14px;color:#a9d4bf}
+/* faq */
+details{border-bottom:1px solid var(--line);padding:18px 0;max-width:780px}
+summary{cursor:pointer;font-family:Fraunces,serif;font-size:20px;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--green2);font-size:26px;line-height:1}
+details[open] summary:after{content:"\2212"}
+details p{margin-top:10px;color:var(--mute)}
+/* footer */
+footer{background:var(--ink);color:#c9cfc8;padding:56px 0 30px;font-size:15px}
+footer .cols{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:36px;margin-bottom:40px}
+footer h4{color:#fff;font-family:Fraunces,serif;font-size:18px;margin-bottom:10px}
+footer a{display:block;text-decoration:none;color:#c9cfc8;margin-bottom:6px}footer a:hover{color:#fff}
+.legal{border-top:1px solid #3a443e;padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:14px}
+.legal b{color:#fff}
+@media(max-width:760px){footer .cols{grid-template-columns:1fr}}
+
+/* language switcher */
+.right{display:flex;align-items:center;gap:10px}
+#lang{font:inherit;font-size:14.5px;font-weight:500;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:99px;padding:6px 12px;cursor:pointer;max-width:140px}
+#lang:hover,#lang:focus{border-color:var(--green);outline:0}
+#google_translate_element{position:absolute;left:-9999px;top:0;height:0;overflow:hidden}
+.skiptranslate iframe,.goog-te-banner-frame,#goog-gt-tt,.goog-tooltip{display:none!important}
+body{top:0!important}
+.goog-text-highlight{background:none!important;box-shadow:none!important}
+@media(max-width:520px){.sos{padding:7px 11px;font-size:14px}#lang{max-width:104px;padding:6px 8px}.logo{font-size:18px}}
+html[lang="hi"] *,html[lang="mr"] *{font-family:Hind,"Noto Sans Devanagari","Nirmala UI",sans-serif}
+html[lang="gu"] *{font-family:"Noto Sans Gujarati","Nirmala UI",sans-serif}
+html[lang="hi"] h1,html[lang="mr"] h1,html[lang="gu"] h1{line-height:1.3}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo notranslate" translate="no" href="#top"><i></i>Cyber Kavach</a>
+<div class="links"><a href="#help">Get help</a><a href="#scams">Common scams</a><a href="#portals">Official portals</a><a href="#habits">Safe habits</a><a href="#quiz">Quiz</a><a href="#faq">FAQ</a></div>
+<div class="right">
+<select id="lang" class="notranslate" translate="no" aria-label="Language">
+<option value="en">English</option>
+<option value="hing">Hinglish</option>
+<option value="hi">हिन्दी</option>
+<option value="mr">मराठी</option>
+<option value="gu">ગુજરાતી</option>
+</select>
+<a class="sos" href="tel:1930">Fraud? Call 1930</a>
+</div>
+</nav></div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap grid">
+<div>
+<div class="eyebrow">Digital safety guide</div>
+<h1>Hit by an online scam? <em>Stay calm,</em> do this first.</h1>
+<p>Fraud, blackmail, fake calls or a hacked account. Plain-language steps on what to do, how fast to act and where to report it.</p>
+<a class="btn p" href="#help">Choose my problem</a><a class="btn s" href="#portals">Official links</a>
+</div>
+<div class="num" aria-label="Important numbers">
+<div><b>1930</b><span>National helpline for online financial fraud. Call as soon as money is debited.</span></div>
+<div><b>112</b><span>Emergency number when someone is in danger.</span></div>
+<div><b>1098</b><span>Childline, for children who need help.</span></div>
+</div>
+</div></section>
+
+<section id="help" class="alt"><div class="wrap">
+<div class="eyebrow">Step 1</div>
+<h2>What happened to you?</h2>
+<p class="lead">Pick the situation closest to yours. You will see what to do right now and how to report it.</p>
+<div class="pick" id="pick" role="group" aria-label="Situation"></div>
+<div class="panel" aria-live="polite"><div id="do"></div><div id="dont"></div></div>
+</div></section>
+
+<section id="scams"><div class="wrap">
+<div class="eyebrow">Step 2</div>
+<h2>The most common scams right now</h2>
+<p class="lead">Once you recognise the pattern, most scams stop right there.</p>
+<div class="scams">
+<div class="scam"><small>Most dangerous</small><h3>The "digital arrest" call</h3><p>Someone claiming to be CBI, police or customs threatens you with "arrest" on a video call. No agency arrests people or demands money over video. Hang up.</p></div>
+<div class="scam"><small>Job and task fraud</small><h3>Earn money from home</h3><p>A small first payout builds trust, then larger "deposits" are demanded. The money never comes back.</p></div>
+<div class="scam"><small>UPI</small><h3>"Enter your PIN to receive money"</h3><p>A PIN is needed only to send money. If anyone asks for it to receive money, or asks you to scan a QR code, it is a scam.</p></div>
+<div class="scam"><small>Phishing</small><h3>Fake KYC or electricity bill SMS</h3><p>Pressure like "your account will be blocked" pushes you to a fake link. Open your bank's or provider's official app directly instead.</p></div>
+<div class="scam"><small>Sextortion</small><h3>Blackmail after a video call</h3><p>The call is recorded and you are threatened with leaks unless you pay. Paying only increases the demands. Block, save evidence and report.</p></div>
+<div class="scam"><small>Customer care</small><h3>Fake number from a search</h3><p>Fake helpline numbers can show up in search results. Always take the number from the company's official website or app.</p></div>
+</div></div></section>
+
+<section id="portals" class="alt"><div class="wrap">
+<div class="eyebrow">Step 3</div>
+<h2>Where to report</h2>
+<p class="lead">Official government and recognised services only. This website does not file complaints on your behalf. Check the web address before you submit anything.</p>
+<div class="portals">
+<a class="portal" href="https://cybercrime.gov.in/" target="_blank" rel="noopener"><b>National Cyber Crime Portal</b><em>cybercrime.gov.in</em><span>Online complaints for all kinds of cyber crime, including anonymous reports.</span></a>
+<a class="portal" href="tel:1930"><b>Helpline 1930</b><em>Financial fraud</em><span>The sooner you call after a transfer, the better the chance of recovery.</span></a>
+<a class="portal" href="https://sancharsaathi.gov.in/" target="_blank" rel="noopener"><b>Sanchar Saathi</b><em>sancharsaathi.gov.in</em><span>Report suspicious calls and SMS (Chakshu), block lost phones and check SIMs in your name.</span></a>
+<a class="portal" href="https://www.cert-in.org.in/" target="_blank" rel="noopener"><b>CERT-In</b><em>cert-in.org.in</em><span>Report technical incidents, hacking and vulnerabilities.</span></a>
+<a class="portal" href="https://stopncii.org/" target="_blank" rel="noopener"><b>StopNCII</b><em>stopncii.org</em><span>Stops private photos or videos from spreading online. Your image never leaves your device.</span></a>
+<a class="portal" href="https://112.gov.in/" target="_blank" rel="noopener"><b>Emergency 112</b><em>112.gov.in</em><span>For immediate danger or violence.</span></a>
+</div></div></section>
+
+<section id="habits"><div class="wrap">
+<div class="eyebrow">Everyday safety</div>
+<h2>Small habits, big protection</h2>
+<p class="lead" style="margin-bottom:46px">No technical knowledge needed. Just these six things.</p>
+<div class="habits">
+<div class="habit"><h3>Never share an OTP</h3><p>No bank, company or government officer will ever ask for it.</p></div>
+<div class="habit"><h3>A different password everywhere</h3><p>Use a password manager or a long passphrase. One leak should not open everything.</p></div>
+<div class="habit"><h3>Turn on 2-step verification</h3><p>On Gmail, WhatsApp, Instagram and your bank. Even a leaked password will not be enough.</p></div>
+<div class="habit"><h3>Pause before you act</h3><p>Pressure to hurry is the scammer's main weapon. Wait 10 minutes and ask someone you trust.</p></div>
+<div class="habit"><h3>Never install unknown APKs</h3><p>An .apk file or "update" link sent on WhatsApp can hand over control of your phone.</p></div>
+<div class="habit"><h3>Keep screenshots</h3><p>Chats, numbers, UPI IDs and transaction IDs are the most useful details in a report.</p></div>
+</div></div></section>
+
+<section id="quiz"><div class="wrap"><div class="quiz">
+<div class="eyebrow">Test yourself</div>
+<h2>Can you spot the scam?</h2>
+<div class="q" id="q"></div>
+</div></div></section>
+
+<section id="faq" class="alt"><div class="wrap">
+<div class="eyebrow">Frequently asked questions</div>
+<h2>Want to know more?</h2><div style="height:20px"></div>
+<details><summary>Money was debited. What do I do first?</summary><p>Call 1930 immediately and file a complaint at cybercrime.gov.in. Keep the transaction ID, amount, time and the receiving account ready. Also inform your bank.</p></details>
+<details><summary>Does this website file my complaint?</summary><p>No. It only gives information and official links. Always file complaints on the official portal, and never upload private photos or documents here.</p></details>
+<details><summary>What if I pay the blackmailer a little?</summary><p>Do not. Once you pay, the demands keep growing. Stop replying, block the account, keep the evidence and report it. It is not your fault.</p></details>
+<details><summary>Do I have to visit a police station to report?</summary><p>In most cases an online complaint is the first step. If you need to go anywhere later, you will be told after the complaint is filed.</p></details>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<div class="cols">
+<div><h4 class="notranslate" translate="no">Cyber Kavach</h4><p>An independent awareness project for staying safe online. It is not a government website and is not affiliated with any government body. Numbers and procedures can change, so always confirm on the official site.</p></div>
+<div><h4>Quick links</h4><a href="#help">Get help</a><a href="#scams">Common scams</a><a href="#habits">Safe habits</a><a href="#quiz">Quiz</a></div>
+<div><h4>Official</h4><a href="https://cybercrime.gov.in/" target="_blank" rel="noopener">cybercrime.gov.in</a><a href="https://sancharsaathi.gov.in/" target="_blank" rel="noopener">sancharsaathi.gov.in</a><a href="https://www.cert-in.org.in/" target="_blank" rel="noopener">cert-in.org.in</a></div>
+</div>
+<div class="legal"><span>&copy; <span id="yr">2026</span> Cyber Kavach. For educational information only.</span><span>Created by <b class="notranslate" translate="no">Atul Kumar</b></span></div>
+</div></footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+const S={
+"Money was debited":{do:["Call 1930 right away.","Ask your bank or UPI app to block or freeze the card or account.","File a complaint at cybercrime.gov.in.","Save the transaction ID, amount, time and the receiver's account or UPI ID."],dont:["Do not click again on links or take repeated calls from the scammers.","Do not pay any 'recovery agent'. That is another scam.","Do not wait. The first hour matters most."],w:"After you complain, also get a written acknowledgement from your bank."},
+"Blackmail / sextortion":{do:["Stop replying. Block and report the account.","Keep chats, the number, profile link and screenshots safe.","Report at cybercrime.gov.in. You can do it anonymously.","If private photos or videos are spreading, use StopNCII or the platform's report tool."],dont:["Do not pay and do not send any more photos or videos.","Do not blame yourself. The fault is the blackmailer's.","Do not delete the evidence."],w:"If the victim is a minor, involve a trusted adult and get help right away. Childline 1098 can help."},
+"Fake call / digital arrest":{do:["Hang up. No agency arrests anyone over a video call.","Screenshot the number and report it on sancharsaathi.gov.in using Chakshu.","Tell someone at home.","If you already sent money, call 1930 immediately."],dont:["Do not send money or any 'verification deposit'.","Do not share your screen or install any APK.","Do not stay on the call to 'cooperate with the investigation'."],w:"Genuine government notices arrive in writing, never as threats on a call."},
+"Account hacked":{do:["Use the platform's 'account recovery' to change your password.","Turn on 2-step verification and log out of all devices.","Change the password anywhere else you reused it.","Warn your contacts not to send money if someone asks in your name."],dont:["Do not pay any 'hacker' or 'expert' to recover it.","Do not share your OTP with anyone."],w:"If your bank or email was hacked, secure that first and everything else after."},
+"Phone or SIM lost":{do:["Tell your operator and get the SIM blocked.","Request blocking and tracking of the phone on Sanchar Saathi.","Ask your bank to block UPI and banking apps.","File a police report (FIR or e-FIR)."],dont:["Do not pay anyone who offers to 'find your phone'."],w:"Your IMEI is on the phone's box, or dial *#06# on any phone. Note it down somewhere safe."}
+};
+const Q=[
+["A caller says he is a CBI officer and talks about a 'digital arrest' on video call. You:",["Cooperate and send money","Hang up and report it","Share your screen"],1,"No agency arrests anyone over video call. This is a well-known scam."],
+["A 'customer care' agent says to enter your UPI PIN to get a refund.",["Refuse. A PIN is only for sending money","Enter the PIN","Share half the PIN"],0,"You never need a PIN to receive money."],
+["WhatsApp sends 'Your electricity bill is pending, update.apk'.",["Install it","Delete it and report the sender","Forward it to friends"],1,"An unknown APK can steal control of your phone, SMS and OTPs."],
+["Someone threatens to leak your private photo.",["Pay a little","Block, save evidence and report","Delete the chat"],1,"Paying only grows the demands. Save the evidence and report at cybercrime.gov.in."],
+["You found a bank's customer care number on Google. What is safest?",["Call the first result","Take the number from the bank's official app or website","Take the number from someone's status"],1,"Fake numbers can appear in search results too."]
+];
+const K=["Get help", "Common scams", "Official portals", "Safe habits", "Quiz", "FAQ", "Fraud? Call 1930", "Digital safety guide", "Hit by an online scam?", "Stay calm,", "do this first.", "Fraud, blackmail, fake calls or a hacked account. Plain-language steps on what to do, how fast to act and where to report it.", "Choose my problem", "Official links", "National helpline for online financial fraud. Call as soon as money is debited.", "Emergency number when someone is in danger.", "Childline, for children who need help.", "Step 1", "What happened to you?", "Pick the situation closest to yours. You will see what to do right now and how to report it.", "Step 2", "The most common scams right now", "Once you recognise the pattern, most scams stop right there.", "Most dangerous", "The \"digital arrest\" call", "Someone claiming to be CBI, police or customs threatens you with \"arrest\" on a video call. No agency arrests people or demands money over video. Hang up.", "Job and task fraud", "Earn money from home", "A small first payout builds trust, then larger \"deposits\" are demanded. The money never comes back.", "UPI", "\"Enter your PIN to receive money\"", "A PIN is needed only to send money. If anyone asks for it to receive money, or asks you to scan a QR code, it is a scam.", "Phishing", "Fake KYC or electricity bill SMS", "Pressure like \"your account will be blocked\" pushes you to a fake link. Open your bank's or provider's official app directly instead.", "Sextortion", "Blackmail after a video call", "The call is recorded and you are threatened with leaks unless you pay. Paying only increases the demands. Block, save evidence and report.", "Customer care", "Fake number from a search", "Fake helpline numbers can show up in search results. Always take the number from the company's official website or app.", "Step 3", "Where to report", "Official government and recognised services only. This website does not file complaints on your behalf. Check the web address before you submit anything.", "National Cyber Crime Portal", "Online complaints for all kinds of cyber crime, including anonymous reports.", "Helpline 1930", "Financial fraud", "The sooner you call after a transfer, the better the chance of recovery.", "Sanchar Saathi", "Report suspicious calls and SMS (Chakshu), block lost phones and check SIMs in your name.", "CERT-In", "Report technical incidents, hacking and vulnerabilities.", "StopNCII", "stopncii.org", "Stops private photos or videos from spreading online. Your image never leaves your device.", "Emergency 112", "112.gov.in", "For immediate danger or violence.", "Everyday safety", "Small habits, big protection", "No technical knowledge needed. Just these six things.", "Never share an OTP", "No bank, company or government officer will ever ask for it.", "A different password everywhere", "Use a password manager or a long passphrase. One leak should not open everything.", "Turn on 2-step verification", "On Gmail, WhatsApp, Instagram and your bank. Even a leaked password will not be enough.", "Pause before you act", "Pressure to hurry is the scammer's main weapon. Wait 10 minutes and ask someone you trust.", "Never install unknown APKs", "An .apk file or \"update\" link sent on WhatsApp can hand over control of your phone.", "Keep screenshots", "Chats, numbers, UPI IDs and transaction IDs are the most useful details in a report.", "Test yourself", "Can you spot the scam?", "Frequently asked questions", "Want to know more?", "Money was debited. What do I do first?", "Call 1930 immediately and file a complaint at cybercrime.gov.in. Keep the transaction ID, amount, time and the receiving account ready. Also inform your bank.", "Does this website file my complaint?", "No. It only gives information and official links. Always file complaints on the official portal, and never upload private photos or documents here.", "What if I pay the blackmailer a little?", "Do not. Once you pay, the demands keep growing. Stop replying, block the account, keep the evidence and report it. It is not your fault.", "Do I have to visit a police station to report?", "In most cases an online complaint is the first step. If you need to go anywhere later, you will be told after the complaint is filed.", "An independent awareness project for staying safe online. It is not a government website and is not affiliated with any government body. Numbers and procedures can change, so always confirm on the official site.", "Quick links", "Official", "Cyber Kavach. For educational information only.", "Created by", "Money was debited", "Call 1930 right away.", "Ask your bank or UPI app to block or freeze the card or account.", "File a complaint at cybercrime.gov.in.", "Save the transaction ID, amount, time and the receiver's account or UPI ID.", "Do not click again on links or take repeated calls from the scammers.", "Do not pay any 'recovery agent'. That is another scam.", "Do not wait. The first hour matters most.", "After you complain, also get a written acknowledgement from your bank.", "Blackmail / sextortion", "Stop replying. Block and report the account.", "Keep chats, the number, profile link and screenshots safe.", "Report at cybercrime.gov.in. You can do it anonymously.", "If private photos or videos are spreading, use StopNCII or the platform's report tool.", "Do not pay and do not send any more photos or videos.", "Do not blame yourself. The fault is the blackmailer's.", "Do not delete the evidence.", "If the victim is a minor, involve a trusted adult and get help right away. Childline 1098 can help.", "Fake call / digital arrest", "Hang up. No agency arrests anyone over a video call.", "Screenshot the number and report it on sancharsaathi.gov.in using Chakshu.", "Tell someone at home.", "If you already sent money, call 1930 immediately.", "Do not send money or any 'verification deposit'.", "Do not share your screen or install any APK.", "Do not stay on the call to 'cooperate with the investigation'.", "Genuine government notices arrive in writing, never as threats on a call.", "Account hacked", "Use the platform's 'account recovery' to change your password.", "Turn on 2-step verification and log out of all devices.", "Change the password anywhere else you reused it.", "Warn your contacts not to send money if someone asks in your name.", "Do not pay any 'hacker' or 'expert' to recover it.", "Do not share your OTP with anyone.", "If your bank or email was hacked, secure that first and everything else after.", "Phone or SIM lost", "Tell your operator and get the SIM blocked.", "Request blocking and tracking of the phone on Sanchar Saathi.", "Ask your bank to block UPI and banking apps.", "File a police report (FIR or e-FIR).", "Do not pay anyone who offers to 'find your phone'.", "Your IMEI is on the phone's box, or dial *#06# on any phone. Note it down somewhere safe.", "A caller says he is a CBI officer and talks about a 'digital arrest' on video call. You:", "Cooperate and send money", "Hang up and report it", "Share your screen", "No agency arrests anyone over video call. This is a well-known scam.", "A 'customer care' agent says to enter your UPI PIN to get a refund.", "Refuse. A PIN is only for sending money", "Enter the PIN", "Share half the PIN", "You never need a PIN to receive money.", "WhatsApp sends 'Your electricity bill is pending, update.apk'.", "Install it", "Delete it and report the sender", "Forward it to friends", "An unknown APK can steal control of your phone, SMS and OTPs.", "Someone threatens to leak your private photo.", "Pay a little", "Block, save evidence and report", "Delete the chat", "Paying only grows the demands. Save the evidence and report at cybercrime.gov.in.", "You found a bank's customer care number on Google. What is safest?", "Call the first result", "Take the number from the bank's official app or website", "Take the number from someone's status", "Fake numbers can appear in search results too.", "Question", "Finished", "Your score:", "Great job. Share this with your family too.", "No worries. Read the guides above and try again.", "Play again", "Next question", "See result", "Do this now", "Avoid this"];
+const T={"hi": ["मदद पाएँ", "आम ठगी", "सरकारी पोर्टल", "सुरक्षित आदतें", "क्विज़", "सवाल-जवाब", "धोखाधड़ी? 1930 पर कॉल करें", "डिजिटल सुरक्षा गाइड", "ऑनलाइन ठगी हुई?", "घबराइए मत,", "पहले यह कीजिए।", "धोखाधड़ी, ब्लैकमेल, फर्जी कॉल या हैक हुआ अकाउंट। सरल भाषा में बताया गया है कि क्या करना है, कितनी जल्दी करना है और रिपोर्ट कहाँ करनी है।", "मेरी समस्या चुनें", "सरकारी लिंक", "ऑनलाइन वित्तीय धोखाधड़ी के लिए राष्ट्रीय हेल्पलाइन। पैसे कटते ही कॉल करें।", "जब किसी की जान को खतरा हो तब आपातकालीन नंबर।", "चाइल्डलाइन, मदद चाहने वाले बच्चों के लिए।", "चरण 1", "आपके साथ क्या हुआ?", "अपनी स्थिति के सबसे करीब वाला विकल्प चुनें। आपको अभी क्या करना है और रिपोर्ट कैसे करनी है, यह दिखेगा।", "चरण 2", "अभी की सबसे आम ठगियाँ", "पैटर्न पहचान लेने पर ज़्यादातर ठगी वहीं रुक जाती है।", "सबसे खतरनाक", "\"डिजिटल अरेस्ट\" कॉल", "कोई खुद को CBI, पुलिस या कस्टम अधिकारी बताकर वीडियो कॉल पर \"गिरफ्तारी\" की धमकी देता है। कोई भी एजेंसी वीडियो कॉल पर गिरफ्तार नहीं करती और न पैसे माँगती है। कॉल काट दें।", "नौकरी और टास्क फ्रॉड", "घर बैठे कमाइए", "भरोसा जीतने के लिए पहले छोटा भुगतान मिलता है, फिर बड़े \"डिपॉज़िट\" माँगे जाते हैं। पैसा वापस नहीं आता।", "UPI", "\"पैसे पाने के लिए PIN डालें\"", "PIN सिर्फ पैसे भेजने के लिए चाहिए। अगर कोई पैसे पाने के लिए PIN माँगे या QR कोड स्कैन करवाए, तो वह ठगी है।", "फिशिंग", "नकली KYC या बिजली बिल SMS", "\"आपका अकाउंट बंद हो जाएगा\" जैसा दबाव बनाकर नकली लिंक पर भेजा जाता है। इसकी जगह बैंक या कंपनी का आधिकारिक ऐप सीधे खोलें।", "सेक्सटॉर्शन", "वीडियो कॉल के बाद ब्लैकमेल", "कॉल रिकॉर्ड करके वायरल करने की धमकी देकर पैसे माँगे जाते हैं। पैसे देने से माँग और बढ़ती है। ब्लॉक करें, सबूत रखें और रिपोर्ट करें।", "कस्टमर केयर", "सर्च से मिला नकली नंबर", "सर्च रिज़ल्ट में नकली हेल्पलाइन नंबर आ सकते हैं। नंबर हमेशा कंपनी की आधिकारिक वेबसाइट या ऐप से लें।", "चरण 3", "रिपोर्ट कहाँ करें", "सिर्फ आधिकारिक सरकारी और मान्यता प्राप्त सेवाएँ। यह वेबसाइट आपकी ओर से शिकायत दर्ज नहीं करती। कुछ भी सबमिट करने से पहले वेबसाइट का पता जाँच लें।", "राष्ट्रीय साइबर क्राइम पोर्टल", "हर तरह के साइबर अपराध की ऑनलाइन शिकायत, गुमनाम रिपोर्ट भी।", "हेल्पलाइन 1930", "वित्तीय धोखाधड़ी", "ट्रांसफर के बाद जितनी जल्दी कॉल करेंगे, पैसे वापस मिलने की संभावना उतनी बढ़ेगी।", "Sanchar Saathi", "संदिग्ध कॉल/SMS (चक्षु) की रिपोर्ट करें, खोया फोन ब्लॉक करें और अपने नाम पर चल रहे SIM जाँचें।", "CERT-In", "तकनीकी घटनाओं, हैकिंग और कमज़ोरियों की रिपोर्ट करें।", "StopNCII", "stopncii.org", "निजी फोटो या वीडियो को ऑनलाइन फैलने से रोकता है। आपकी तस्वीर आपके डिवाइस से बाहर नहीं जाती।", "आपातकाल 112", "112.gov.in", "तुरंत खतरे या हिंसा की स्थिति में।", "रोज़ की सुरक्षा", "छोटी आदतें, बड़ी सुरक्षा", "किसी तकनीकी जानकारी की ज़रूरत नहीं। बस ये छह बातें।", "OTP किसी को न बताएँ", "कोई बैंक, कंपनी या सरकारी अधिकारी कभी OTP नहीं माँगता।", "हर जगह अलग पासवर्ड", "पासवर्ड मैनेजर या लंबा पासफ़्रेज़ इस्तेमाल करें। एक लीक से सब कुछ न खुले।", "2-स्टेप वेरिफिकेशन चालू करें", "Gmail, WhatsApp, Instagram और बैंक पर। पासवर्ड लीक हो भी जाए तो अकाउंट सुरक्षित रहेगा।", "कदम उठाने से पहले रुकें", "जल्दबाज़ी का दबाव ठग का सबसे बड़ा हथियार है। 10 मिनट रुकें और किसी भरोसेमंद से पूछें।", "अनजान APK कभी इंस्टॉल न करें", "WhatsApp पर आई .apk फ़ाइल या \"अपडेट\" लिंक आपके फोन का कंट्रोल दे सकता है।", "स्क्रीनशॉट सँभालकर रखें", "चैट, नंबर, UPI ID और ट्रांज़ैक्शन ID रिपोर्ट में सबसे काम की जानकारी हैं।", "खुद को परखें", "क्या आप ठगी पहचान सकते हैं?", "अक्सर पूछे जाने वाले सवाल", "और कुछ जानना है?", "पैसे कट गए। सबसे पहले क्या करूँ?", "तुरंत 1930 पर कॉल करें और cybercrime.gov.in पर शिकायत दर्ज करें। ट्रांज़ैक्शन ID, राशि, समय और जिस खाते में पैसा गया उसकी जानकारी तैयार रखें। अपने बैंक को भी बताएँ।", "क्या यह वेबसाइट मेरी शिकायत दर्ज करती है?", "नहीं। यह सिर्फ जानकारी और आधिकारिक लिंक देती है। शिकायत हमेशा आधिकारिक पोर्टल पर ही करें, और यहाँ कोई निजी फोटो या दस्तावेज़ अपलोड न करें।", "अगर ब्लैकमेल करने वाले को थोड़े पैसे दे दूँ तो?", "नहीं। एक बार पैसे देने पर माँग बढ़ती जाती है। जवाब देना बंद करें, अकाउंट ब्लॉक करें, सबूत रखें और रिपोर्ट करें। इसमें आपकी कोई गलती नहीं है।", "क्या रिपोर्ट के लिए थाने जाना पड़ेगा?", "ज़्यादातर मामलों में ऑनलाइन शिकायत पहला कदम होती है। आगे कहीं जाना पड़े तो शिकायत दर्ज होने के बाद आपको बताया जाता है।", "ऑनलाइन सुरक्षित रहने के लिए एक स्वतंत्र जागरूकता प्रोजेक्ट। यह कोई सरकारी वेबसाइट नहीं है और किसी सरकारी संस्था से जुड़ी नहीं है। नंबर और प्रक्रिया बदल सकती हैं, इसलिए आधिकारिक साइट पर पुष्टि ज़रूर करें।", "त्वरित लिंक", "आधिकारिक", "Cyber Kavach. केवल शैक्षणिक जानकारी के लिए।", "बनाने वाले", "पैसे कट गए", "तुरंत 1930 पर कॉल करें।", "अपने बैंक या UPI ऐप से कार्ड या खाता ब्लॉक/फ्रीज़ करवाएँ।", "cybercrime.gov.in पर शिकायत दर्ज करें।", "ट्रांज़ैक्शन ID, राशि, समय और पाने वाले का खाता या UPI ID सेव करें।", "ठगों के लिंक पर दोबारा क्लिक न करें और बार-बार आने वाले कॉल न उठाएँ।", "किसी \"रिकवरी एजेंट\" को पैसे न दें। यह दूसरी ठगी है।", "देर न करें। पहला घंटा सबसे अहम होता है।", "शिकायत के बाद अपने बैंक से लिखित पावती भी लें।", "ब्लैकमेल / सेक्सटॉर्शन", "जवाब देना बंद करें। अकाउंट को ब्लॉक और रिपोर्ट करें।", "चैट, नंबर, प्रोफ़ाइल लिंक और स्क्रीनशॉट सुरक्षित रखें।", "cybercrime.gov.in पर रिपोर्ट करें। आप गुमनाम रूप से भी कर सकते हैं।", "अगर निजी फोटो या वीडियो फैल रहे हों, तो StopNCII या प्लेटफ़ॉर्म का रिपोर्ट टूल इस्तेमाल करें।", "पैसे न दें और कोई और फोटो या वीडियो न भेजें।", "खुद को दोष न दें। गलती ब्लैकमेल करने वाले की है।", "सबूत डिलीट न करें।", "अगर पीड़ित नाबालिग है, तो किसी भरोसेमंद बड़े को शामिल करें और तुरंत मदद लें। चाइल्डलाइन 1098 मदद कर सकती है।", "फर्जी कॉल / डिजिटल अरेस्ट", "कॉल काट दें। कोई एजेंसी वीडियो कॉल पर किसी को गिरफ्तार नहीं करती।", "नंबर का स्क्रीनशॉट लें और sancharsaathi.gov.in पर चक्षु से रिपोर्ट करें।", "घर में किसी को बताएँ।", "अगर पैसे भेज चुके हैं तो तुरंत 1930 पर कॉल करें।", "कोई पैसे या \"वेरिफिकेशन डिपॉज़िट\" न भेजें।", "स्क्रीन शेयर न करें और कोई APK इंस्टॉल न करें।", "\"जाँच में सहयोग\" के नाम पर कॉल पर बने न रहें।", "असली सरकारी नोटिस लिखित में आते हैं, कॉल पर धमकी के रूप में नहीं।", "अकाउंट हैक हो गया", "पासवर्ड बदलने के लिए प्लेटफ़ॉर्म का \"अकाउंट रिकवरी\" इस्तेमाल करें।", "2-स्टेप वेरिफिकेशन चालू करें और सभी डिवाइस से लॉग आउट करें।", "जहाँ-जहाँ वही पासवर्ड इस्तेमाल किया था, वहाँ भी बदलें।", "अपने कॉन्टैक्ट्स को बताएँ कि कोई आपके नाम से पैसे माँगे तो न दें।", "रिकवरी के लिए किसी \"हैकर\" या \"एक्सपर्ट\" को पैसे न दें।", "अपना OTP किसी से साझा न करें।", "अगर बैंक या ईमेल हैक हुआ है, तो पहले उसे सुरक्षित करें, बाकी सब बाद में।", "फोन या SIM खो गया", "अपने ऑपरेटर को बताकर SIM ब्लॉक करवाएँ।", "Sanchar Saathi पर फोन को ब्लॉक और ट्रैक करने का अनुरोध करें।", "अपने बैंक से UPI और बैंकिंग ऐप ब्लॉक करवाएँ।", "पुलिस में रिपोर्ट (FIR या e-FIR) दर्ज करें।", "\"फोन ढूँढने\" का दावा करने वाले को पैसे न दें।", "आपका IMEI फोन के डिब्बे पर होता है, या किसी भी फोन से *#06# डायल करें। इसे कहीं सुरक्षित लिख लें।", "एक कॉल करने वाला खुद को CBI अधिकारी बताकर वीडियो कॉल पर \"डिजिटल अरेस्ट\" की बात करता है। आप:", "सहयोग करके पैसे भेज देते हैं", "कॉल काटकर रिपोर्ट करते हैं", "अपनी स्क्रीन शेयर करते हैं", "कोई एजेंसी वीडियो कॉल पर गिरफ्तार नहीं करती। यह जानी-पहचानी ठगी है।", "एक \"कस्टमर केयर\" एजेंट रिफंड के लिए आपका UPI PIN डालने को कहता है।", "मना कर देते हैं। PIN सिर्फ पैसे भेजने के लिए होता है", "PIN डाल देते हैं", "आधा PIN बता देते हैं", "पैसे पाने के लिए PIN की ज़रूरत कभी नहीं होती।", "WhatsApp पर आता है \"आपका बिजली बिल बकाया है, update.apk\"।", "इंस्टॉल कर लेते हैं", "डिलीट करके भेजने वाले को रिपोर्ट करते हैं", "दोस्तों को फॉरवर्ड कर देते हैं", "अनजान APK आपके फोन, SMS और OTP का कंट्रोल चुरा सकता है।", "कोई आपकी निजी फोटो लीक करने की धमकी देता है।", "थोड़े पैसे दे देते हैं", "ब्लॉक करें, सबूत रखें और रिपोर्ट करें", "चैट डिलीट कर देते हैं", "पैसे देने से माँग सिर्फ बढ़ती है। सबूत रखें और cybercrime.gov.in पर रिपोर्ट करें।", "आपको Google पर बैंक का कस्टमर केयर नंबर मिला। सबसे सुरक्षित क्या है?", "पहला रिज़ल्ट कॉल करना", "बैंक के आधिकारिक ऐप या वेबसाइट से नंबर लेना", "किसी के स्टेटस से नंबर लेना", "नकली नंबर सर्च रिज़ल्ट में भी आ सकते हैं।", "सवाल", "पूरा हुआ", "आपका स्कोर:", "बहुत बढ़िया। यह जानकारी अपने घरवालों को भी बताएँ।", "कोई बात नहीं। ऊपर की गाइड दोबारा पढ़ें और फिर कोशिश करें।", "दोबारा खेलें", "अगला सवाल", "नतीजा देखें", "अभी यह करें", "यह न करें"], "mr": ["मदत मिळवा", "सामान्य फसवणूक", "अधिकृत पोर्टल", "सुरक्षित सवयी", "क्विझ", "प्रश्नोत्तरे", "फसवणूक? 1930 वर कॉल करा", "डिजिटल सुरक्षा मार्गदर्शक", "ऑनलाइन फसवणूक झाली?", "घाबरू नका,", "आधी हे करा.", "फसवणूक, ब्लॅकमेल, बनावट कॉल किंवा हॅक झालेले अकाउंट. काय करायचे, किती लवकर करायचे आणि तक्रार कुठे करायची हे सोप्या भाषेत सांगितले आहे.", "माझी समस्या निवडा", "अधिकृत लिंक", "ऑनलाइन आर्थिक फसवणुकीसाठी राष्ट्रीय हेल्पलाइन. पैसे कट होताच कॉल करा.", "कोणाच्या जिवाला धोका असेल तेव्हा आणीबाणी क्रमांक.", "चाइल्डलाइन, मदतीची गरज असलेल्या मुलांसाठी.", "पायरी 1", "तुमच्यासोबत काय झाले?", "तुमच्या परिस्थितीशी सर्वात जवळचा पर्याय निवडा. आता काय करायचे आणि तक्रार कशी करायची ते दिसेल.", "पायरी 2", "सध्याची सर्वात सामान्य फसवणूक", "पद्धत ओळखली की बहुतेक फसवणूक तिथेच थांबते.", "सर्वात धोकादायक", "\"डिजिटल अरेस्ट\" कॉल", "कोणी स्वतःला CBI, पोलीस किंवा कस्टम अधिकारी सांगून व्हिडिओ कॉलवर \"अटकेची\" धमकी देतो. कोणतीही एजन्सी व्हिडिओ कॉलवर अटक करत नाही किंवा पैसे मागत नाही. कॉल कट करा.", "नोकरी आणि टास्क फसवणूक", "घरबसल्या कमवा", "विश्वास बसवण्यासाठी आधी छोटी रक्कम मिळते, मग मोठे \"डिपॉझिट\" मागितले जाते. पैसे परत येत नाहीत.", "UPI", "\"पैसे मिळवण्यासाठी PIN टाका\"", "PIN फक्त पैसे पाठवण्यासाठी लागतो. कोणी पैसे मिळवण्यासाठी PIN मागितला किंवा QR कोड स्कॅन करायला सांगितला, तर ती फसवणूक आहे.", "फिशिंग", "बनावट KYC किंवा वीज बिल SMS", "\"तुमचे अकाउंट बंद होईल\" असा दबाव आणून बनावट लिंकवर नेले जाते. त्याऐवजी बँक किंवा कंपनीचे अधिकृत अॅप थेट उघडा.", "सेक्सटॉर्शन", "व्हिडिओ कॉलनंतर ब्लॅकमेल", "कॉल रेकॉर्ड करून व्हायरल करण्याची धमकी देत पैसे मागितले जातात. पैसे दिल्याने मागणी वाढतच जाते. ब्लॉक करा, पुरावे जपा आणि तक्रार करा.", "कस्टमर केअर", "सर्चमधून मिळालेला बनावट नंबर", "सर्च रिझल्टमध्ये बनावट हेल्पलाइन नंबर दिसू शकतात. नंबर नेहमी कंपनीच्या अधिकृत वेबसाइट किंवा अॅपवरून घ्या.", "पायरी 3", "तक्रार कुठे करायची", "फक्त अधिकृत सरकारी आणि मान्यताप्राप्त सेवा. ही वेबसाइट तुमच्या वतीने तक्रार नोंदवत नाही. काहीही सबमिट करण्यापूर्वी वेबसाइटचा पत्ता तपासा.", "राष्ट्रीय सायबर क्राइम पोर्टल", "सर्व प्रकारच्या सायबर गुन्ह्यांची ऑनलाइन तक्रार, निनावी तक्रारही.", "हेल्पलाइन 1930", "आर्थिक फसवणूक", "ट्रान्सफरनंतर जितक्या लवकर कॉल कराल, तितकी पैसे परत मिळण्याची शक्यता जास्त.", "Sanchar Saathi", "संशयास्पद कॉल/SMS (चक्षु) ची तक्रार करा, हरवलेला फोन ब्लॉक करा आणि तुमच्या नावावरील SIM तपासा.", "CERT-In", "तांत्रिक घटना, हॅकिंग आणि त्रुटींची तक्रार करा.", "StopNCII", "stopncii.org", "खाजगी फोटो किंवा व्हिडिओ ऑनलाइन पसरण्यापासून थांबवतो. तुमचा फोटो तुमच्या डिव्हाइसबाहेर जात नाही.", "आणीबाणी 112", "112.gov.in", "तात्काळ धोका किंवा हिंसेच्या वेळी.", "रोजची सुरक्षा", "छोट्या सवयी, मोठे संरक्षण", "तांत्रिक ज्ञानाची गरज नाही. फक्त या सहा गोष्टी.", "OTP कोणालाही सांगू नका", "कोणतीही बँक, कंपनी किंवा सरकारी अधिकारी कधीही OTP मागत नाही.", "प्रत्येक ठिकाणी वेगळा पासवर्ड", "पासवर्ड मॅनेजर किंवा लांब पासफ्रेज वापरा. एका लीकमुळे सर्व काही उघडू नये.", "2-स्टेप व्हेरिफिकेशन चालू करा", "Gmail, WhatsApp, Instagram आणि बँकेवर. पासवर्ड लीक झाला तरी अकाउंट सुरक्षित राहील.", "कृती करण्यापूर्वी थांबा", "घाईचा दबाव हे ठगाचे सर्वात मोठे शस्त्र आहे. 10 मिनिटे थांबा आणि विश्वासू व्यक्तीला विचारा.", "अनोळखी APK कधीही इन्स्टॉल करू नका", "WhatsApp वर आलेली .apk फाइल किंवा \"अपडेट\" लिंक तुमच्या फोनचे नियंत्रण देऊ शकते.", "स्क्रीनशॉट जपून ठेवा", "चॅट, नंबर, UPI ID आणि ट्रान्झॅक्शन ID ही तक्रारीतील सर्वात उपयुक्त माहिती आहे.", "स्वतःची परीक्षा घ्या", "तुम्हाला फसवणूक ओळखता येते का?", "नेहमी विचारले जाणारे प्रश्न", "आणखी काही जाणून घ्यायचे आहे?", "पैसे कट झाले. आधी काय करू?", "लगेच 1930 वर कॉल करा आणि cybercrime.gov.in वर तक्रार नोंदवा. ट्रान्झॅक्शन ID, रक्कम, वेळ आणि ज्या खात्यात पैसे गेले त्याची माहिती तयार ठेवा. तुमच्या बँकेलाही कळवा.", "ही वेबसाइट माझी तक्रार नोंदवते का?", "नाही. ती फक्त माहिती आणि अधिकृत लिंक देते. तक्रार नेहमी अधिकृत पोर्टलवरच करा, आणि येथे कोणतेही खाजगी फोटो किंवा कागदपत्रे अपलोड करू नका.", "ब्लॅकमेल करणाऱ्याला थोडे पैसे दिले तर?", "नाही. एकदा पैसे दिले की मागणी वाढतच जाते. उत्तर देणे थांबवा, अकाउंट ब्लॉक करा, पुरावे ठेवा आणि तक्रार करा. यात तुमची काहीही चूक नाही.", "तक्रारीसाठी पोलीस ठाण्यात जावे लागेल का?", "बहुतेक प्रकरणांत ऑनलाइन तक्रार हे पहिले पाऊल असते. पुढे कुठे जावे लागले तर तक्रार नोंदवल्यानंतर तुम्हाला सांगितले जाते.", "ऑनलाइन सुरक्षित राहण्यासाठीचा एक स्वतंत्र जनजागृती प्रकल्प. ही सरकारी वेबसाइट नाही आणि कोणत्याही सरकारी संस्थेशी संलग्न नाही. नंबर आणि प्रक्रिया बदलू शकतात, म्हणून अधिकृत साइटवर खात्री करा.", "जलद लिंक", "अधिकृत", "Cyber Kavach. फक्त शैक्षणिक माहितीसाठी.", "निर्माते", "पैसे कट झाले", "लगेच 1930 वर कॉल करा.", "तुमच्या बँकेला किंवा UPI अॅपला सांगून कार्ड किंवा खाते ब्लॉक/फ्रीझ करा.", "cybercrime.gov.in वर तक्रार नोंदवा.", "ट्रान्झॅक्शन ID, रक्कम, वेळ आणि पैसे घेणाऱ्याचे खाते किंवा UPI ID सेव्ह करा.", "ठगांच्या लिंकवर पुन्हा क्लिक करू नका आणि वारंवार येणारे कॉल उचलू नका.", "कोणत्याही \"रिकव्हरी एजंटला\" पैसे देऊ नका. ही दुसरी फसवणूक आहे.", "उशीर करू नका. पहिला तास सर्वात महत्त्वाचा असतो.", "तक्रारीनंतर तुमच्या बँकेकडून लेखी पोचपावतीही घ्या.", "ब्लॅकमेल / सेक्सटॉर्शन", "उत्तर देणे थांबवा. अकाउंट ब्लॉक करा आणि रिपोर्ट करा.", "चॅट, नंबर, प्रोफाइल लिंक आणि स्क्रीनशॉट सुरक्षित ठेवा.", "cybercrime.gov.in वर तक्रार करा. तुम्ही निनावीही करू शकता.", "खाजगी फोटो किंवा व्हिडिओ पसरत असतील, तर StopNCII किंवा प्लॅटफॉर्मचे रिपोर्ट टूल वापरा.", "पैसे देऊ नका आणि आणखी फोटो किंवा व्हिडिओ पाठवू नका.", "स्वतःला दोष देऊ नका. चूक ब्लॅकमेल करणाऱ्याची आहे.", "पुरावे डिलीट करू नका.", "पीडित अल्पवयीन असेल, तर विश्वासू मोठ्या व्यक्तीला सामील करा आणि लगेच मदत घ्या. चाइल्डलाइन 1098 मदत करू शकते.", "बनावट कॉल / डिजिटल अरेस्ट", "कॉल कट करा. कोणतीही एजन्सी व्हिडिओ कॉलवर कोणालाही अटक करत नाही.", "नंबरचा स्क्रीनशॉट घ्या आणि sancharsaathi.gov.in वर चक्षुद्वारे तक्रार करा.", "घरातील कोणाला तरी सांगा.", "आधीच पैसे पाठवले असतील तर लगेच 1930 वर कॉल करा.", "कोणतेही पैसे किंवा \"व्हेरिफिकेशन डिपॉझिट\" पाठवू नका.", "स्क्रीन शेअर करू नका आणि कोणताही APK इन्स्टॉल करू नका.", "\"तपासात सहकार्य\" म्हणून कॉलवर राहू नका.", "खरी सरकारी नोटीस लेखी येते, कॉलवर धमकीच्या स्वरूपात नाही.", "अकाउंट हॅक झाले", "पासवर्ड बदलण्यासाठी प्लॅटफॉर्मचे \"अकाउंट रिकव्हरी\" वापरा.", "2-स्टेप व्हेरिफिकेशन चालू करा आणि सर्व डिव्हाइसमधून लॉग आउट करा.", "जिथे जिथे तोच पासवर्ड वापरला तिथेही बदला.", "तुमच्या कॉन्टॅक्ट्सना सांगा की तुमच्या नावाने कोणी पैसे मागितले तर देऊ नका.", "रिकव्हरीसाठी कोणत्याही \"हॅकर\" किंवा \"एक्सपर्ट\" ला पैसे देऊ नका.", "तुमचा OTP कोणाशीही शेअर करू नका.", "बँक किंवा ईमेल हॅक झाला असेल, तर आधी तो सुरक्षित करा, बाकी सर्व नंतर.", "फोन किंवा SIM हरवले", "तुमच्या ऑपरेटरला सांगून SIM ब्लॉक करा.", "Sanchar Saathi वर फोन ब्लॉक आणि ट्रॅक करण्याची विनंती करा.", "तुमच्या बँकेला UPI आणि बँकिंग अॅप्स ब्लॉक करायला सांगा.", "पोलिसांत तक्रार (FIR किंवा e-FIR) नोंदवा.", "\"फोन शोधून देतो\" असे सांगणाऱ्याला पैसे देऊ नका.", "तुमचा IMEI फोनच्या बॉक्सवर असतो, किंवा कोणत्याही फोनवरून *#06# डायल करा. तो कुठेतरी सुरक्षित लिहून ठेवा.", "एक कॉलर स्वतःला CBI अधिकारी सांगून व्हिडिओ कॉलवर \"डिजिटल अरेस्ट\" बद्दल बोलतो. तुम्ही:", "सहकार्य करून पैसे पाठवता", "कॉल कट करून रिपोर्ट करता", "तुमची स्क्रीन शेअर करता", "कोणतीही एजन्सी व्हिडिओ कॉलवर अटक करत नाही. ही सर्वश्रुत फसवणूक आहे.", "एक \"कस्टमर केअर\" एजंट रिफंडसाठी तुमचा UPI PIN टाकायला सांगतो.", "नकार देता. PIN फक्त पैसे पाठवण्यासाठी असतो", "PIN टाकता", "अर्धा PIN सांगता", "पैसे मिळवण्यासाठी PIN ची गरज कधीच नसते.", "WhatsApp वर येते \"तुमचे वीज बिल थकीत आहे, update.apk\".", "इन्स्टॉल करता", "डिलीट करून पाठवणाऱ्याला रिपोर्ट करता", "मित्रांना फॉरवर्ड करता", "अनोळखी APK तुमच्या फोन, SMS आणि OTP चे नियंत्रण चोरू शकतो.", "कोणी तुमचा खाजगी फोटो लीक करण्याची धमकी देतो.", "थोडे पैसे देता", "ब्लॉक करा, पुरावे ठेवा आणि रिपोर्ट करा", "चॅट डिलीट करता", "पैसे दिल्याने मागणी फक्त वाढते. पुरावे ठेवा आणि cybercrime.gov.in वर रिपोर्ट करा.", "तुम्हाला Google वर बँकेचा कस्टमर केअर नंबर मिळाला. सर्वात सुरक्षित काय आहे?", "पहिला रिझल्ट कॉल करणे", "बँकेच्या अधिकृत अॅप किंवा वेबसाइटवरून नंबर घेणे", "कोणाच्या स्टेटसवरून नंबर घेणे", "बनावट नंबर सर्च रिझल्टमध्येही येऊ शकतात.", "प्रश्न", "पूर्ण झाले", "तुमचा स्कोअर:", "छान. ही माहिती तुमच्या घरच्यांनाही सांगा.", "काही हरकत नाही. वरील मार्गदर्शक पुन्हा वाचा आणि पुन्हा प्रयत्न करा.", "पुन्हा खेळा", "पुढील प्रश्न", "निकाल पाहा", "आता हे करा", "हे करू नका"], "gu": ["મદદ મેળવો", "સામાન્ય છેતરપિંડી", "સત્તાવાર પોર્ટલ", "સુરક્ષિત આદતો", "ક્વિઝ", "પ્રશ્નોત્તરી", "છેતરપિંડી? 1930 પર કૉલ કરો", "ડિજિટલ સુરક્ષા માર્ગદર્શિકા", "ઑનલાઇન છેતરપિંડી થઈ?", "ગભરાશો નહીં,", "પહેલાં આ કરો.", "છેતરપિંડી, બ્લેકમેલ, નકલી કૉલ અથવા હૅક થયેલ એકાઉન્ટ. શું કરવું, કેટલી ઝડપથી કરવું અને ફરિયાદ ક્યાં કરવી તે સરળ ભાષામાં સમજાવ્યું છે.", "મારી સમસ્યા પસંદ કરો", "સત્તાવાર લિંક", "ઑનલાઇન નાણાકીય છેતરપિંડી માટે રાષ્ટ્રીય હેલ્પલાઇન. પૈસા કપાય કે તરત કૉલ કરો.", "કોઈના જીવને જોખમ હોય ત્યારે ઇમરજન્સી નંબર.", "ચાઇલ્ડલાઇન, મદદની જરૂર હોય તેવા બાળકો માટે.", "પગલું 1", "તમારી સાથે શું થયું?", "તમારી પરિસ્થિતિને સૌથી નજીકનો વિકલ્પ પસંદ કરો. હમણાં શું કરવું અને ફરિયાદ કેવી રીતે કરવી તે દેખાશે.", "પગલું 2", "અત્યારની સૌથી સામાન્ય છેતરપિંડી", "પૅટર્ન ઓળખી લો તો મોટાભાગની છેતરપિંડી ત્યાં જ અટકી જાય છે.", "સૌથી જોખમી", "\"ડિજિટલ અરેસ્ટ\" કૉલ", "કોઈ પોતાને CBI, પોલીસ કે કસ્ટમ અધિકારી ગણાવી વીડિયો કૉલ પર \"ધરપકડ\"ની ધમકી આપે છે. કોઈ એજન્સી વીડિયો કૉલ પર ધરપકડ કરતી નથી કે પૈસા માગતી નથી. કૉલ કાપી નાખો.", "નોકરી અને ટાસ્ક છેતરપિંડી", "ઘરે બેઠાં કમાઓ", "વિશ્વાસ જીતવા પહેલાં નાની રકમ મળે છે, પછી મોટા \"ડિપોઝિટ\" મગાય છે. પૈસા પાછા આવતા નથી.", "UPI", "\"પૈસા મેળવવા PIN નાખો\"", "PIN ફક્ત પૈસા મોકલવા માટે જોઈએ. કોઈ પૈસા મેળવવા PIN માગે કે QR કોડ સ્કૅન કરાવે, તો તે છેતરપિંડી છે.", "ફિશિંગ", "નકલી KYC કે વીજળી બિલ SMS", "\"તમારું એકાઉન્ટ બંધ થઈ જશે\" જેવું દબાણ કરીને નકલી લિંક પર લઈ જવાય છે. તેના બદલે બૅન્ક કે કંપનીની સત્તાવાર ઍપ સીધી ખોલો.", "સેક્સટૉર્શન", "વીડિયો કૉલ પછી બ્લેકમેલ", "કૉલ રેકોર્ડ કરીને વાયરલ કરવાની ધમકી આપી પૈસા મગાય છે. પૈસા આપવાથી માગણી વધતી જ જાય છે. બ્લૉક કરો, પુરાવા રાખો અને ફરિયાદ કરો.", "કસ્ટમર કેર", "સર્ચમાંથી મળેલો નકલી નંબર", "સર્ચ રિઝલ્ટમાં નકલી હેલ્પલાઇન નંબર આવી શકે છે. નંબર હંમેશા કંપનીની સત્તાવાર વેબસાઇટ કે ઍપમાંથી લો.", "પગલું 3", "ફરિયાદ ક્યાં કરવી", "ફક્ત સત્તાવાર સરકારી અને માન્ય સેવાઓ. આ વેબસાઇટ તમારા વતી ફરિયાદ નોંધાવતી નથી. કંઈ પણ સબમિટ કરતા પહેલાં વેબસાઇટનું સરનામું તપાસો.", "રાષ્ટ્રીય સાયબર ક્રાઇમ પોર્ટલ", "દરેક પ્રકારના સાયબર ગુનાની ઑનલાઇન ફરિયાદ, અનામી રિપોર્ટ પણ.", "હેલ્પલાઇન 1930", "નાણાકીય છેતરપિંડી", "ટ્રાન્સફર પછી જેટલો જલદી કૉલ કરશો, પૈસા પાછા મળવાની શક્યતા એટલી વધુ.", "Sanchar Saathi", "શંકાસ્પદ કૉલ/SMS (ચક્ષુ)નો રિપોર્ટ કરો, ખોવાયેલો ફોન બ્લૉક કરો અને તમારા નામે ચાલતા SIM તપાસો.", "CERT-In", "ટેકનિકલ ઘટનાઓ, હૅકિંગ અને નબળાઈઓનો રિપોર્ટ કરો.", "StopNCII", "stopncii.org", "ખાનગી ફોટા કે વીડિયો ઑનલાઇન ફેલાતા અટકાવે છે. તમારો ફોટો તમારા ડિવાઇસની બહાર જતો નથી.", "ઇમરજન્સી 112", "112.gov.in", "તાત્કાલિક જોખમ કે હિંસા વખતે.", "રોજની સુરક્ષા", "નાની આદતો, મોટી સુરક્ષા", "ટેકનિકલ જ્ઞાનની જરૂર નથી. બસ આ છ બાબતો.", "OTP કોઈને ન આપો", "કોઈ બૅન્ક, કંપની કે સરકારી અધિકારી ક્યારેય OTP માગતા નથી.", "દરેક જગ્યાએ અલગ પાસવર્ડ", "પાસવર્ડ મેનેજર કે લાંબો પાસફ્રેઝ વાપરો. એક લીકથી બધું ખુલી ન જાય.", "2-સ્ટેપ વેરિફિકેશન ચાલુ કરો", "Gmail, WhatsApp, Instagram અને બૅન્ક પર. પાસવર્ડ લીક થાય તો પણ એકાઉન્ટ સુરક્ષિત રહેશે.", "પગલું ભરતાં પહેલાં અટકો", "ઉતાવળનું દબાણ એ ઠગનું સૌથી મોટું હથિયાર છે. 10 મિનિટ અટકો અને કોઈ વિશ્વાસુને પૂછો.", "અજાણી APK ક્યારેય ઇન્સ્ટૉલ ન કરો", "WhatsApp પર આવેલી .apk ફાઇલ કે \"અપડેટ\" લિંક તમારા ફોનનું નિયંત્રણ આપી શકે છે.", "સ્ક્રીનશૉટ સાચવી રાખો", "ચૅટ, નંબર, UPI ID અને ટ્રાન્ઝેક્શન ID રિપોર્ટમાં સૌથી ઉપયોગી માહિતી છે.", "જાતે ચકાસો", "શું તમે છેતરપિંડી ઓળખી શકો છો?", "વારંવાર પુછાતા પ્રશ્નો", "વધુ જાણવું છે?", "પૈસા કપાઈ ગયા. પહેલાં શું કરું?", "તરત 1930 પર કૉલ કરો અને cybercrime.gov.in પર ફરિયાદ નોંધાવો. ટ્રાન્ઝેક્શન ID, રકમ, સમય અને જે ખાતામાં પૈસા ગયા તેની વિગતો તૈયાર રાખો. તમારી બૅન્કને પણ જણાવો.", "શું આ વેબસાઇટ મારી ફરિયાદ નોંધાવે છે?", "ના. તે ફક્ત માહિતી અને સત્તાવાર લિંક આપે છે. ફરિયાદ હંમેશા સત્તાવાર પોર્ટલ પર જ કરો, અને અહીં કોઈ ખાનગી ફોટો કે દસ્તાવેજ અપલોડ ન કરો.", "બ્લેકમેલ કરનારને થોડા પૈસા આપી દઉં તો?", "ના. એક વાર પૈસા આપો તો માગણી વધતી જ જાય છે. જવાબ આપવાનું બંધ કરો, એકાઉન્ટ બ્લૉક કરો, પુરાવા રાખો અને ફરિયાદ કરો. તેમાં તમારો કોઈ વાંક નથી.", "ફરિયાદ માટે પોલીસ સ્ટેશન જવું પડશે?", "મોટાભાગના કિસ્સામાં ઑનલાઇન ફરિયાદ પહેલું પગલું હોય છે. આગળ ક્યાંય જવું પડે તો ફરિયાદ નોંધાયા પછી તમને જણાવવામાં આવે છે.", "ઑનલાઇન સુરક્ષિત રહેવા માટેનો એક સ્વતંત્ર જાગૃતિ પ્રોજેક્ટ. આ સરકારી વેબસાઇટ નથી અને કોઈ સરકારી સંસ્થા સાથે જોડાયેલી નથી. નંબર અને પ્રક્રિયા બદલાઈ શકે છે, તેથી સત્તાવાર સાઇટ પર ખાતરી કરો.", "ઝડપી લિંક", "સત્તાવાર", "Cyber Kavach. ફક્ત શૈક્ષણિક માહિતી માટે.", "બનાવનાર", "પૈસા કપાઈ ગયા", "તરત 1930 પર કૉલ કરો.", "તમારી બૅન્ક કે UPI ઍપને કહીને કાર્ડ કે ખાતું બ્લૉક/ફ્રીઝ કરાવો.", "cybercrime.gov.in પર ફરિયાદ નોંધાવો.", "ટ્રાન્ઝેક્શન ID, રકમ, સમય અને પૈસા લેનારનું ખાતું કે UPI ID સેવ કરો.", "ઠગોની લિંક પર ફરી ક્લિક ન કરો અને વારંવાર આવતા કૉલ ન ઉપાડો.", "કોઈ \"રિકવરી એજન્ટ\"ને પૈસા ન આપો. એ બીજી છેતરપિંડી છે.", "મોડું ન કરો. પહેલો કલાક સૌથી મહત્ત્વનો છે.", "ફરિયાદ પછી તમારી બૅન્ક પાસેથી લેખિત પહોંચ પણ લો.", "બ્લેકમેલ / સેક્સટૉર્શન", "જવાબ આપવાનું બંધ કરો. એકાઉન્ટને બ્લૉક અને રિપોર્ટ કરો.", "ચૅટ, નંબર, પ્રોફાઇલ લિંક અને સ્ક્રીનશૉટ સુરક્ષિત રાખો.", "cybercrime.gov.in પર રિપોર્ટ કરો. તમે અનામી રીતે પણ કરી શકો છો.", "ખાનગી ફોટા કે વીડિયો ફેલાતા હોય, તો StopNCII અથવા પ્લૅટફૉર્મનું રિપોર્ટ ટૂલ વાપરો.", "પૈસા ન આપો અને વધુ ફોટા કે વીડિયો ન મોકલો.", "જાતને દોષ ન આપો. વાંક બ્લેકમેલ કરનારનો છે.", "પુરાવા ડિલીટ ન કરો.", "પીડિત સગીર હોય, તો કોઈ વિશ્વાસુ મોટી વ્યક્તિને સામેલ કરો અને તરત મદદ લો. ચાઇલ્ડલાઇન 1098 મદદ કરી શકે છે.", "નકલી કૉલ / ડિજિટલ અરેસ્ટ", "કૉલ કાપી નાખો. કોઈ એજન્સી વીડિયો કૉલ પર કોઈની ધરપકડ કરતી નથી.", "નંબરનો સ્ક્રીનશૉટ લો અને sancharsaathi.gov.in પર ચક્ષુ દ્વારા રિપોર્ટ કરો.", "ઘરમાં કોઈને જણાવો.", "જો પૈસા મોકલી દીધા હોય તો તરત 1930 પર કૉલ કરો.", "કોઈ પૈસા કે \"વેરિફિકેશન ડિપોઝિટ\" ન મોકલો.", "સ્ક્રીન શેર ન કરો અને કોઈ APK ઇન્સ્ટૉલ ન કરો.", "\"તપાસમાં સહકાર\" ના નામે કૉલ પર ન રહો.", "સાચી સરકારી નોટિસ લેખિતમાં આવે છે, કૉલ પર ધમકી તરીકે નહીં.", "એકાઉન્ટ હૅક થયું", "પાસવર્ડ બદલવા પ્લૅટફૉર્મના \"એકાઉન્ટ રિકવરી\"નો ઉપયોગ કરો.", "2-સ્ટેપ વેરિફિકેશન ચાલુ કરો અને બધા ડિવાઇસમાંથી લૉગ આઉટ કરો.", "જ્યાં જ્યાં એ જ પાસવર્ડ વાપર્યો હોય ત્યાં પણ બદલો.", "તમારા કૉન્ટેક્ટ્સને જણાવો કે તમારા નામે કોઈ પૈસા માગે તો ન આપે.", "રિકવરી માટે કોઈ \"હૅકર\" કે \"એક્સપર્ટ\"ને પૈસા ન આપો.", "તમારો OTP કોઈની સાથે શેર ન કરો.", "બૅન્ક કે ઇમેઇલ હૅક થયા હોય, તો પહેલાં તેને સુરક્ષિત કરો, બાકી બધું પછી.", "ફોન કે SIM ખોવાયું", "તમારા ઑપરેટરને કહીને SIM બ્લૉક કરાવો.", "Sanchar Saathi પર ફોન બ્લૉક અને ટ્રૅક કરવાની વિનંતી કરો.", "તમારી બૅન્કને UPI અને બૅન્કિંગ ઍપ બ્લૉક કરવા કહો.", "પોલીસમાં ફરિયાદ (FIR અથવા e-FIR) નોંધાવો.", "\"ફોન શોધી આપું\" કહેનારને પૈસા ન આપો.", "તમારો IMEI ફોનના બૉક્સ પર હોય છે, અથવા કોઈ પણ ફોનથી *#06# ડાયલ કરો. તેને ક્યાંક સુરક્ષિત લખી રાખો.", "એક કૉલર પોતાને CBI અધિકારી ગણાવી વીડિયો કૉલ પર \"ડિજિટલ અરેસ્ટ\"ની વાત કરે છે. તમે:", "સહકાર આપી પૈસા મોકલો છો", "કૉલ કાપી રિપોર્ટ કરો છો", "તમારી સ્ક્રીન શેર કરો છો", "કોઈ એજન્સી વીડિયો કૉલ પર ધરપકડ કરતી નથી. આ જાણીતી છેતરપિંડી છે.", "એક \"કસ્ટમર કેર\" એજન્ટ રિફંડ માટે તમારો UPI PIN નાખવા કહે છે.", "ના પાડો છો. PIN ફક્ત પૈસા મોકલવા માટે હોય છે", "PIN નાખો છો", "અડધો PIN જણાવો છો", "પૈસા મેળવવા માટે PIN ની જરૂર ક્યારેય હોતી નથી.", "WhatsApp પર આવે છે \"તમારું વીજળી બિલ બાકી છે, update.apk\".", "ઇન્સ્ટૉલ કરો છો", "ડિલીટ કરી મોકલનારને રિપોર્ટ કરો છો", "મિત્રોને ફૉરવર્ડ કરો છો", "અજાણી APK તમારા ફોન, SMS અને OTP નું નિયંત્રણ ચોરી શકે છે.", "કોઈ તમારો ખાનગી ફોટો લીક કરવાની ધમકી આપે છે.", "થોડા પૈસા આપી દો છો", "બ્લૉક કરો, પુરાવા રાખો અને રિપોર્ટ કરો", "ચૅટ ડિલીટ કરો છો", "પૈસા આપવાથી માગણી ફક્ત વધે છે. પુરાવા રાખો અને cybercrime.gov.in પર રિપોર્ટ કરો.", "તમને Google પર બૅન્કનો કસ્ટમર કેર નંબર મળ્યો. સૌથી સુરક્ષિત શું છે?", "પહેલું રિઝલ્ટ કૉલ કરવું", "બૅન્કની સત્તાવાર ઍપ કે વેબસાઇટ પરથી નંબર લેવો", "કોઈના સ્ટેટસ પરથી નંબર લેવો", "નકલી નંબર સર્ચ રિઝલ્ટમાં પણ આવી શકે છે.", "પ્રશ્ન", "પૂર્ણ થયું", "તમારો સ્કોર:", "સરસ. આ માહિતી તમારા ઘરનાંને પણ જણાવો.", "કોઈ વાંધો નહીં. ઉપરની માર્ગદર્શિકા ફરી વાંચો અને ફરી પ્રયત્ન કરો.", "ફરી રમો", "આગળનો પ્રશ્ન", "પરિણામ જુઓ", "હમણાં આ કરો", "આ ન કરો"]};
+
+var lang='en',D={},cur='Money was debited',i=0,sc=0;
+['hi','mr','gu'].forEach(function(c){D[c]={};K.forEach(function(k,n){D[c][k]=T[c][n]})});
+function L(k){return lang==='en'?k:((D[lang]&&D[lang][k])||k)}
+var sel=document.getElementById('lang'),pick=document.getElementById('pick'),doE=document.getElementById('do'),dontE=document.getElementById('dont'),qe=document.getElementById('q');
+function show(k){
+ cur=k;
+ [].forEach.call(pick.children,function(b){b.setAttribute('aria-pressed',b.dataset.k===k)});
+ var s=S[k];
+ doE.innerHTML='<div class="tag">'+L('Do this now')+'</div><h3>'+L(k)+'</h3><ol>'+s.do.map(function(x){return '<li>'+L(x)+'</li>'}).join('')+'</ol>';
+ dontE.innerHTML='<div class="tag">'+L('Avoid this')+'</div><ul>'+s.dont.map(function(x){return '<li>'+L(x)+'</li>'}).join('')+'</ul><div class="warn">'+L(s.w)+'</div>';
+}
+function buildPick(){
+ pick.innerHTML='';
+ Object.keys(S).forEach(function(k){var b=document.createElement('button');b.textContent=L(k);b.dataset.k=k;b.onclick=function(){show(k)};pick.appendChild(b)});
+}
+function ask(){
+ if(i>=Q.length){
+  qe.innerHTML='<p class="prog">'+L('Finished')+'</p><p style="font-family:Fraunces,serif;font-size:28px;margin:14px 0">'+L('Your score:')+' '+sc+' / '+Q.length+'</p><p class="why">'+L(sc>=4?'Great job. Share this with your family too.':'No worries. Read the guides above and try again.')+'</p><button class="next" id="again">'+L('Play again')+'</button>';
+  document.getElementById('again').onclick=function(){i=0;sc=0;ask()};return;
+ }
+ var t=Q[i][0],o=Q[i][1],a=Q[i][2],w=Q[i][3];
+ qe.innerHTML='<div class="prog">'+L('Question')+' '+(i+1)+' / '+Q.length+'</div><p class="qt">'+L(t)+'</p>'+o.map(function(x,j){return '<button class="opt" data-j="'+j+'">'+L(x)+'</button>'}).join('')+'<div class="why" id="why"></div>';
+ [].forEach.call(qe.querySelectorAll('.opt'),function(b){b.onclick=function(){
+  var j=+b.dataset.j;if(j===a)sc++;
+  [].forEach.call(qe.querySelectorAll('.opt'),function(x,k){x.disabled=true;if(k===a)x.classList.add('ok');else if(k===j)x.classList.add('no')});
+  document.getElementById('why').textContent=L(w);
+  var n=document.createElement('button');n.className='next';n.textContent=L(i<Q.length-1?'Next question':'See result');n.onclick=function(){i++;ask()};qe.appendChild(n);
+ }});
+}
+function walk(){
+ var w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,null),list=[],n;
+ while(n=w.nextNode()){
+  var p=n.parentNode;
+  if(/^(SCRIPT|STYLE|OPTION|SELECT)$/.test(p.nodeName)||(p.closest&&p.closest('#pick,#do,#dont,#q')))continue;
+  list.push(n);
+ }
+ list.forEach(function(n){
+  if(n._o===undefined)n._o=n.nodeValue;
+  var k=n._o.trim();if(!k)return;
+  var t=lang==='en'?null:(D[lang]&&D[lang][k]);
+  n.nodeValue=t?n._o.replace(k,function(){return t}):n._o;
+ });
+}
+function setLang(c){
+ lang=c;sel.value=c;document.documentElement.lang=c;
+ walk();buildPick();show(cur);ask();
+}
+sel.addEventListener('change',function(){
+ var v=sel.value;
+ if(v==='hing'){location.href='hinglish.html';return}
+ setLang(v);
+});
+buildPick();show(cur);ask();
+var hm=location.hash.match(/^#lang-(en|hi|mr|gu)$/);
+if(hm&&hm[1]!=='en')setLang(hm[1]);
+</script>
+
+</body>
+</html>
